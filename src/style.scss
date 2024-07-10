@@ -1,0 +1,30 @@
+#cesiumContainer {
+  width: 100vw;
+  height: 100vh;
+}
+
+.position-info-status-bar {
+  left: 0px;
+  right: 0px;
+  bottom: 1vw;
+  display: block;
+  position: absolute;
+  padding: 3px 10px;
+  font-size: 13px;
+  color: #e9e9e9;
+  text-shadow: 2px 2px 2px #000;
+  background-color: rgba(0, 0, 0, .4);
+  pointer-events: none;
+  text-align: right;
+  max-width: 10.417vw;
+  overflow: hidden;
+}
+
+.position-info-status-bar div {
+  float: left;
+  margin-right: 30px;
+}
+
+.ant-popover-content .ant-popover-inner{
+  background-color: transparent;
+}

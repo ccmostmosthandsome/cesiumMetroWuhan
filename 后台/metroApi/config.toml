@@ -1,0 +1,10 @@
+key="9740ea1af87d10c4541c82d21810783a"
+ginPort = ":8090"
+
+[mysql]
+host = "127.0.0.1"
+name = "metro"
+password = "mysql"
+port = 3306
+tablePrefix = ""
+user = "root"
